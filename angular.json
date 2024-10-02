@@ -31,9 +31,8 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/theme.scss"],
+
             "scripts": []
           },
           "configurations": {
@@ -91,6 +90,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -98,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6dd46463-075b-40d5-8152-7617adefff75"
   }
 }
